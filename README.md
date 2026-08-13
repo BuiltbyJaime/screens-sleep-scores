@@ -1,4 +1,4 @@
-# Screen Time and Digital Addiction Analysis
+# Screen Sleep Scores
 
 ## Project Overview
 
@@ -12,6 +12,12 @@ The aim of this project is to clean, analyse, and visualise the data to identify
 
 ## Research Questions
 
+### Main Question
+
+1. How are digital habits, sleep patterns and insomnia associated with educational outcomes?
+
+### Dataset 1 Questions
+
 1. Does higher screen time relate to higher addiction levels?
 
 2. Is screen addiction associated with negative academic impact?
@@ -19,6 +25,8 @@ The aim of this project is to clean, analyse, and visualise the data to identify
 3. Do users who receive more notifications spend more time on their devices?
 
 4. What is the gender distribution of users classified as addicted?
+
+### Dataset 2 Questions
 
 ---
 
@@ -34,10 +42,12 @@ The aim of this project is to clean, analyse, and visualise the data to identify
 
 ## Repository Contents
 
-- `keystone_project.ipynb` — main project notebook
-- `screen_time_dataset.csv` — dataset used for analysis
+- `venv` - virtual enviroment
+- `Notebooks` — main project notebook
+- `Data` — datasets used for analysis
 - `requirements.txt` — required Python libraries
 - `README.md` — project overview and instructions
+- `Database` - SQL Database and ERD
 
 ---
 
@@ -71,3 +81,7 @@ Stretch Goals:
 
 - include a second dataset.
 - plot further data to explore more questions.
+
+Dataset 1 Source - https://www.kaggle.com/datasets/zahranusratt/smartphone-usage-and-addiction-analysis-dataset?select=Smartphone_Usage_And_Addiction_Analysis_7500_Rows.csv
+
+Dataset 2 Source - https://data.mendeley.com/datasets/5mvrx4v62z/1
