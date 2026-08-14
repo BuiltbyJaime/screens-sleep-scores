@@ -173,13 +173,15 @@ Each visualization is accompanied by an interpretation explaining the pattern ob
 - SQLite3
 - SQL
 - Jupyter Notebook
+- Git
+- GitHub
 
 ---
 
 ## Repository Structure
 
 ```text
-project-folder/
+screens-sleep-scores/
 │
 ├── Data/
 │   ├── smartphone_addiction.csv
@@ -213,11 +215,14 @@ Examples:
 
 ### 1. Download or Clone the Repository
 
+````bash
+git clone <https://github.com/BuiltbyJaime/screens-sleep-scores/>
+
 Open a terminal and navigate to the project directory.
 
 ```bash
-cd <project-folder>
-```
+cd <screens-sleep-scores>
+````
 
 ### 2. Create a Virtual Environment
 
@@ -284,8 +289,6 @@ Notebooks/dataset_analysis.ipynb
 ```
 
 Open the notebook and run the cells in order.
-
-For final verification, restart the kernel and run all cells from beginning to end to ensure that the project executes without errors.
 
 ---
 
@@ -358,8 +361,6 @@ Several limitations should be considered when interpreting the results:
 ---
 
 ## Acknowledgement of Tools and Assistance
-
-This project was completed using Python and open-source libraries including Pandas, Matplotlib, Seaborn, Jupyter Notebook, and SQLite3.
 
 ChatGPT was used for code generation, troubleshooting, explanations, and editing support during development of the project. The resulting code, analysis, interpretations, and project structure were reviewed as part of the development process.
 
