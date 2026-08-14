@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-**Screen Sleep Scores** explores how smartphone usage, digital addiction, sleep behaviours, and insomnia are associated with educational outcomes.
+**Screen Sleep Scores** explores how smartphone usage, digital addiction, sleep behaviors, and insomnia are associated with educational outcomes.
 
-The project uses two independent datasets. The first examines smartphone usage behaviours including daily screen time, notifications, addiction level, sleep duration, and reported academic or work impact. The second focuses on student sleep and insomnia, including sleep duration, sleep quality, nighttime waking, device use before bed, academic stress, and academic performance.
+The project uses two independent datasets. The first dataset examines smartphone usage behaviors including daily screen time, notifications, addiction level, sleep duration, and reported academic or work impact. The second dataset focuses on student sleep and insomnia, including sleep duration, sleep quality, nighttime waking, device use before bed, academic stress, and academic performance.
 
 Because the two datasets contain different respondents, they are not matched at an individual level. Instead, standardized sleep-duration categories are used to create a shared relationship between the datasets within a relational SQLite database.
 
@@ -63,17 +63,17 @@ https://www.kaggle.com/datasets/zahranusratt/smartphone-usage-and-addiction-anal
 
 Relevant variables include:
 
-- year of study
-- gender
-- difficulty falling asleep
-- sleep duration
-- nighttime waking
-- sleep quality
-- fatigue
-- concentration difficulties
-- device use before bed
-- academic stress
-- academic performance
+- `year_of_study`
+- `gender`
+- `difficulty falling asleep`
+- `sleep duration`
+- `nighttime waking`
+- `sleep quality`
+- `fatigue`
+- `concentration difficulties`
+- `device use before bed`
+- `academic stress`
+- `academic performance`
 
 Source:
 
@@ -173,8 +173,6 @@ Each visualization is accompanied by an interpretation explaining the pattern ob
 - SQLite3
 - SQL
 - Jupyter Notebook
-- Git
-- GitHub
 
 ---
 
@@ -311,7 +309,7 @@ The analysis identified several patterns across the two datasets.
 
 Higher daily screen time was associated with higher smartphone addiction levels within the smartphone dataset. Users classified within higher addiction categories also frequently reported negative academic or work impact.
 
-When smartphone behaviour was compared across standardized sleep-duration groups using SQL, average daily screen time was relatively similar:
+When smartphone behavior was compared across standardized sleep-duration groups using SQL, average daily screen time was relatively similar:
 
 - **Under 6 hours:** 7.81 hours
 - **6–8 hours:** 7.85 hours
